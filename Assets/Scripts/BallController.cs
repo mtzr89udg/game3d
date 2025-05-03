@@ -13,6 +13,7 @@ public class BallController : MonoBehaviour
         {
             return;
         }
+        
         rb.linearVelocity = Vector3.zero;
         rb.AddForce(Vector3.up*impulseForce,ForceMode.Impulse);
 
